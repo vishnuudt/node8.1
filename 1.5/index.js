@@ -4,6 +4,7 @@ const fs = require('fs');
 const readline = require('readline');
 const support = require('./support');
 const http = require('http');
+const websocket = require('./websockets');
 
 const rl = readline.createInterface({
     input: fs.createReadStream('chuck.txt')
